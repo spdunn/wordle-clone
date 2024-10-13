@@ -1,7 +1,10 @@
 {
-  "name": "wordle-clone",
+  "name": "@spdunn/wordle-clone",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -28,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "updateapp": "npm version minor && npm publish"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +51,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.tsx",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spdunn/wordle-clone.git"
+  },
+  "keywords": [
+    "wordle"
+  ],
+  "author": "Sean Dunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spdunn/wordle-clone/issues"
+  },
+  "homepage": "https://github.com/spdunn/wordle-clone#readme"
 }
