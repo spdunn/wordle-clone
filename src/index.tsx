@@ -11,8 +11,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-export { default as Game } from './components/Game/Game';
-export * from './components/Game/Game';
+export { default as Game } from '../lib/Game/Game';
+export * from '../lib/Game/Game';
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

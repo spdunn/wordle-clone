@@ -4,9 +4,9 @@ import { useState, useEffect } from 'react';
 import { Button, Box, Grid, Paper, Modal, TextField, Typography, CssBaseline, styled } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles"
 import {makeStyles} from "@mui/styles";
-import POSSIBLE_WORDS from "../../util/words.json";
-import VALID_WORDS from "../../util/valid-words.json";
-import KEYBOARD from "../../util/alphabet.json";
+import POSSIBLE_WORDS from "../../src/util/words.json";
+import VALID_WORDS from "../../src/util/valid-words.json";
+import KEYBOARD from "../../src/util/alphabet.json";
 
 /**
  * This component represents a standard game of Wordle, ie 6 rows of 5 boxes in

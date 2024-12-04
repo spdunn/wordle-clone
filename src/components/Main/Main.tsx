@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button, Container, CardHeader } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles"
-import data from "../../util/words.json";
+import data from "../../src/util/words.json";
 
 const themeLight = createTheme({
     palette: {
