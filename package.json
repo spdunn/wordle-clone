@@ -78,6 +78,6 @@
     "url": "https://github.com/spdunn/wordle-clone/issues"
   },
   "files": [
-    "dist"
+    "dist/"
   ]
 }
