@@ -1,8 +1,8 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "@mui/material";
-import Main from '../lib/Main/Main';
-import Game from "../lib/Game/Game";
+import Main from '../src/components/Main/Main';
+import Game from "../src/components/Game/Game";
 import './App.css';
 
 function App() {
