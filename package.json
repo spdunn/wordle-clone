@@ -76,8 +76,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/spdunn/wordle-clone/issues"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
