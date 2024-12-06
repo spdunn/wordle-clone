@@ -3,10 +3,10 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.tsx', // Your main React file
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
-  },
+  // output: {
+  //   path: path.resolve(__dirname, 'dist'),
+  //   filename: 'bundle.js'
+  // },
   module: {
     rules: [
       {
@@ -32,7 +32,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'src/util', to: 'util' }, // Copy everything from 'src/util' to 'dist'
-        { from: 'src/components', to: 'components'}
       ]
     })
   ]

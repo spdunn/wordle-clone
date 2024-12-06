@@ -11,7 +11,7 @@
     "eject": "react-scripts eject",
     "updateapp": "npm version minor && npm publish",
     "clean": "rm -rf dist",
-    "prepare-build": "npm run clean && webpack --config webpack.config.js",
+    "prepare-build": "npm run clean && NODE_ENV=production babel src --out-dir dist --extensions '.ts,.tsx' --copy-files && webpack --config webpack.config.js",
     "copy": "cp package.json ./dist/ && cp README.md ./dist/",
     "build": "npm run prepare-build && npm run copy"
   },
