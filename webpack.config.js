@@ -31,8 +31,8 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: 'src/util', to: 'dist/util' }, // Copy everything from 'src/util' to 'dist'
-        { from: 'src/components', to: 'dist/'}
+        { from: 'src/util', to: 'util' }, // Copy everything from 'src/util' to 'dist'
+        { from: 'src/components', to: 'components'}
       ]
     })
   ]
